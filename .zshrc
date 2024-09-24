@@ -75,11 +75,6 @@ export FZF_BASE="/home/lukaseder/zsh_plugins/fzf"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	git
-	git-flow
-	dnf
-	pip
-	golang
 	fzf
 )
 
@@ -111,16 +106,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Nim Path Variable
-export PATH=/home/lukaseder/.nimble/bin:$PATH
-export PATH=~/bin:$PATH
-
 # Custom Env Vars
 export ZDG_CONFIG_HOME="$HOME/.config"
-export EMSDK_QUIET=1
-
-### Custom Commands ###
-system_update(){
-	./SystemUtils/update.sh
-}
 
