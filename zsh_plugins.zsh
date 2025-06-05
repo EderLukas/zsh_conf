@@ -1,1 +1,1 @@
-source $HOME/zsh_conf/.zsh_plugins.txt
+source "$HOME/zsh_conf/.zsh_plugins.txt"

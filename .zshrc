@@ -3,6 +3,8 @@ export ZDG_CONFIG_HOME="$HOME/.config"
 export PATH="$HOME/.local/bin:$PATH"
 export EMSDK_QUIET=1
 export SPACESHIP_CONFIG="$HOME/zsh_conf/spaceship.zsh"
+export KUBECONFIG="$HOME/.kube/config/k3s.yaml"
+export PATH="$HOME/go/bin:$PATH"
 
 #sourcing
 source "$HOME/api_keys/codestral-key.sh"
